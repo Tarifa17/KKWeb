@@ -6,27 +6,41 @@ html, body{
     padding: 0px;
     margin: 0px;
 }
+.container{
+    height: auto;
+    width: 100%;
+}
+.custom-navbar{
+    background-color: #1e283b;
+}
+.custom-navbar .nav-link{
+    color: whitesmoke;
+}
+.custom-navbar .nav-link:hover{
+    color: blue;
+}
 
 .flex-grow-1{
     flex-grow: 1;
     margin: 30px;
 }
-body {
-    background-color: #686868; /*cuerpo*/
-}
 
 .card {
-    background-color: #5c2929; /*cambia el color del card */
+    background-color: #1e283b; /*cambia el color del card */
+    color: whitesmoke;
 }
 .accordion-button {
-    background-color: #7288a0; /* color del fondo */
+    background-color: #1e283b; /*cambia el color del card */
     color: white; /*color del texto */
 }
-
+.accordion-body{
+    background-color: #626976;
+    color: whitesmoke;
+}
 
 
 .accordion-item {
-    background-color: #881818; /* color interno del acordeon */
+    background-color: #626976; /* color interno del acordeon */
 }
 
 #footer{
