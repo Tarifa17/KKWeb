@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container d-flex flex-column min-vh-100">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container d-flex flex-column min-vh-100" style="max-width: 100%;">
+        <nav class="navbar navbar-expand-lg custom-navbar">
             <a class="navbar-brand"> <img src="img/BrokeCrown1.png" height="100" width="100" alt=""> </a>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
@@ -21,12 +21,12 @@
             </ul>
         </nav>
 
-    <main class="flex-grow-1">
+    <main class="flex-grow-1" style="max-width: 100%;">
         <section class="container">
-                <article class="card mb-3" style="max-width: 1080px;">
+                <article class="card mb-3" style="max-width: 100%;">
                     <div class="row g-0">
                       <div class="col-md-4">
-                        <img src="img/Kami2.png" height="300" width="300" class="img-fluid rounded-start" alt="...">
+                        <img src="img/Kami2.png" height="300px" width="300px" class="img-fluid rounded-start" alt="...">
                       </div>
                       <div class="col-md-8">
                         <div class="card-body">
@@ -41,7 +41,7 @@
                 </article>
         </section>
 
-        <section class="container text-center">
+        <section class="container">
             <article class="accordion accordion-flush">
                     <div class="accordion-item">
                       <h2 class="accordion-header">
@@ -51,10 +51,18 @@
                       </h2>
                       <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body"> 
-                            <div class="card" style="width: 18rem;">
-                            <img src="img/Cat.jpeg" class="card-img-top">
-                            <div class="card-body">
-                              <p class="card-text">Soy un aspirador a programador Front-end y desarrollador Web, me encanta la musica y los videojuegos. Soy fanatico de Gustavo Cerati y mi juego Favorito es Terraria</p>
+                          <div class="card mb-3" style="max-width: 100%;">
+                            <div class="row g-0">
+                              <div class="col-md-4">
+                                <img src="img/Cat.jpeg" height="300px" width="300px" class="img-fluid rounded-start" alt="...">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <p class="card-text">
+                                    Soy un aspirador a programador Front-end y desarrollador Web, me encanta la musica y los videojuegos. Soy fanatico de Gustavo Cerati y mi juego Favorito es Terraria.
+                                  </p>
+                                </div>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -70,10 +78,18 @@
                       <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">
                             <div class="accordion-body"> 
-                                <div class="card" style="width: 18rem;">
-                                <img src="" class="card-img-top">
-                                <div class="card-body">
-                                  <p class="card-text">...a</p>
+                              <div class="card mb-3" style="max-width: 100%;">
+                                <div class="row g-0">
+                                  <div class="col-md-4">
+                                    <img src="img/" height="300px" width="300px" class="img-fluid rounded-start" alt="...">
+                                  </div>
+                                  <div class="col-md-8">
+                                    <div class="card-body">
+                                      <p class="card-text">
+                                        Soy .
+                                      </p>
+                                    </div>
+                                  </div>
                                 </div>
                               </div>
                             </div>
@@ -90,10 +106,46 @@
                       <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">
                             <div class="accordion-body"> 
-                                <div class="card" style="width: 18rem;">
-                                <img src="" class="card-img-top">
-                                <div class="card-body">
-                                  <p class="card-text">...</p>
+                              <div class="card mb-3" style="max-width: 100%;">
+                                <div class="row g-0">
+                                  <div class="col-md-4">
+                                    <img src="img/" height="300px" width="300px" class="img-fluid rounded-start" alt="...">
+                                  </div>
+                                  <div class="col-md-8">
+                                    <div class="card-body">
+                                      <p class="card-text">
+                                        Soy .
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                          Alejandra Abachino
+                        </button>
+                      </h2>
+                      <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="accordion-body"> 
+                              <div class="card mb-3" style="max-width: 100%;">
+                                <div class="row g-0">
+                                  <div class="col-md-4">
+                                    <img src="img/" height="300px" width="300px" class="img-fluid rounded-start" alt="...">
+                                  </div>
+                                  <div class="col-md-8">
+                                    <div class="card-body">
+                                      <p class="card-text">
+                                        Soy .
+                                      </p>
+                                    </div>
+                                  </div>
                                 </div>
                               </div>
                             </div>
@@ -102,10 +154,9 @@
                     </div>
             </article>
         </section>
-
     </main>
 
-        <footer class="container text-center">
+        <footer class="container text-center" id="footer">
             <div class="row">
                 <div class="col">
                   Contacto
