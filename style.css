@@ -1,3 +1,6 @@
+body{
+    background-image: url(img/Cave.webp);
+}
 html, body{
     height: 100%;
     padding: 0px;
@@ -7,4 +10,10 @@ html, body{
 .flex-grow-1{
     flex-grow: 1;
     margin: 30px;
+}
+#footer{
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
 }
