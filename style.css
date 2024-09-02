@@ -19,6 +19,9 @@ html, body{
 .custom-navbar .nav-link:hover{
     color: blue;
 }
+form{
+    margin: 20px;
+}
 
 .flex-grow-1{
     flex-grow: 1;
