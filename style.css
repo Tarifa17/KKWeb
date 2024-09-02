@@ -11,6 +11,24 @@ html, body{
     flex-grow: 1;
     margin: 30px;
 }
+body {
+    background-color: #686868; /*cuerpo*/
+}
+
+.card {
+    background-color: #5c2929; /*cambia el color del card */
+}
+.accordion-button {
+    background-color: #7288a0; /* color del fondo */
+    color: white; /*color del texto */
+}
+
+
+
+.accordion-item {
+    background-color: #881818; /* color interno del acordeon */
+}
+
 #footer{
     color: whitesmoke;
     text-align: center;
