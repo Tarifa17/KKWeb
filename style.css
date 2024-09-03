@@ -60,13 +60,18 @@ footer{
 
 
 .carousel-caption h5 {
+    display: flex;
     font-size: 28px; 
-    color: #313131;  /* Cambia esto al color que desees para el encabezado */
+    font-style: oblique;
+    justify-content: center;
+    background-color: #1e283b;
+    color: whitesmoke;  /* Cambia esto al color que desees para el encabezado */
 }
 
 .carousel-caption p {
     font-size: 28px; 
-    color: #221b61;  /* Cambia esto al color que desees para el párrafo */
+    font-style: oblique;
+    color: whitesmoke;  /* Cambia esto al color que desees para el párrafo */
 }
 
 
