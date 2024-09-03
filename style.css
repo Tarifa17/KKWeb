@@ -57,3 +57,22 @@ footer{
 .custom-nav-width {
     width: 3500px;
 }
+
+
+.carousel-caption h5 {
+    font-size: 28px; 
+    color: #313131;  /* Cambia esto al color que desees para el encabezado */
+}
+
+.carousel-caption p {
+    font-size: 28px; 
+    color: #221b61;  /* Cambia esto al color que desees para el párrafo */
+}
+
+
+
+
+
+
+
+
