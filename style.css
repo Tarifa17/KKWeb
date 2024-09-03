@@ -46,8 +46,10 @@ form{
     background-color: #626976; /* color interno del acordeon */
 }
 
-#footer{
+footer{
     color: whitesmoke;
+    background-color: #1e283b;
+    size: 100%;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: large;
